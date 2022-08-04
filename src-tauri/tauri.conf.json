@@ -1,8 +1,8 @@
 {
 	"$schema": "../node_modules/@tauri-apps/cli/schema.json",
 	"build": {
-		"beforeBuildCommand": "pnpm run build",
-		"beforeDevCommand": "pnpm run dev",
+		"beforeBuildCommand": "yarn build",
+		"beforeDevCommand": "yarn dev",
 		"devPath": "http://localhost:5173",
 		"distDir": "../build"
 	},
@@ -29,8 +29,8 @@
 				"icons/icon.icns",
 				"icons/icon.ico"
 			],
-			"identifier": "com.tauri.dev",
-			"longDescription": "",
+			"identifier": "moe.izu.muji",
+			"longDescription": "muji - a plain, simple, and easy to use text editor",
 			"macOS": {
 				"entitlements": null,
 				"exceptionDomain": "",
@@ -58,7 +58,7 @@
 				"fullscreen": false,
 				"height": 600,
 				"resizable": true,
-				"title": "Crypton",
+				"title": "muji",
 				"width": 800
 			}
 		]
