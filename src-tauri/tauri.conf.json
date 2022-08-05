@@ -7,7 +7,7 @@
 		"distDir": "../build"
 	},
 	"package": {
-		"productName": "Crypton",
+		"productName": "muji",
 		"version": "0.1.0"
 	},
 	"tauri": {
