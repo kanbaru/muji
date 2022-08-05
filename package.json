@@ -32,5 +32,12 @@
 		"typescript": "^4.7.4",
 		"vite": "^3.0.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@codemirror/lang-markdown": "^6.0.1",
+		"@codemirror/state": "^6.1.1",
+		"@svelte-parts/editor": "^0.0.26",
+		"codemirror": "^6.0.1",
+		"svelte-codemirror-editor": "^1.0.0"
+	}
 }
